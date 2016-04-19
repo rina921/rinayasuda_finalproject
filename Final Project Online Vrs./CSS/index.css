@@ -431,7 +431,11 @@ footer a:hover{
 	background-color: transparent;
 }
 
-
+footer .right {
+	text-align: right;
+	font-size: 10px;
+	word-spacing: 0;
+}
 
 /*About Page*/
 #page {
