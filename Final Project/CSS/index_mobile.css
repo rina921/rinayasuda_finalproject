@@ -1,0 +1,138 @@
+
+
+/*Menu Bar*/
+
+
+nav .line{
+	width: 3em;
+	height: .3em;
+	background: #A8A8A8 ;
+	border-radius: 1em;
+	margin-top: .25em;
+}
+nav .line:first-of-type{
+	margin-top:.7em;
+}
+
+#page-header nav li:first-child{
+	float:right;
+	display: none;
+	cursor: pointer;
+}
+#page-header nav {
+	float: right;
+}
+#page-header nav li {
+	float: left;
+}
+
+
+
+@media screen and (max-width: 1000px){
+	/*body{
+		font-size: 16px;
+	}*/
+	nav{
+		width:100%;
+	}
+	#page-header nav li{
+		float: none;
+		width:100%;
+	}
+	#page-header nav li:first-child{
+		display:block;
+		position: absolute;
+		top:-1em;
+		left:.5em;
+	}
+	#menu ul{
+		margin-top: 40px;
+	}
+	#menu{
+		height: initial;
+	}
+	nav ul{
+		height:15px;
+		transition:height 1s;
+		overflow: hidden;
+	}
+	#front-page .latest-container .widget  {
+		width: 100% !important;
+	}
+	.container {
+		width: auto;
+	}
+	
+	.c {
+		width: auto;
+	}
+	footer ul {
+		display: none;
+	}
+}
+@media screen and (max-width: 1200px){
+
+	#end-page {
+		display: none;
+	}
+	.col-md-12 {
+		display: none;
+	}
+
+	.content .form .gform_wrapper .gform_heading {
+		padding: 7em 4em;
+	}
+	.content .form .gform_wrapper .gform_body {
+		padding: 2em 2em 3em 2em;
+	}
+	.content .form .gform_wrapper .gform_footer {
+		bottom: 1em;
+		top: 2em;
+	}
+}
+@media screen and (max-width: 600px){
+
+.instafeed {
+		margin-left: 30%;
+	}
+}
+
+.slideDown{
+	height:15em;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+	#header  #footer  {
+    padding: 1.2em 0;
+	}
+	.button {
+		display: none;
+	}
+
+
+	.content {
+		margin: 0 10px;
+		width: auto;
+		box-shadow: none;
+	}
+	.content .widget .latest-container #front-page {
+		top: 10%;
+		bottom: 10%;
+	}
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+	#front-page .latest-container .widget .content {
+		left: 15% !important;
+		right: 15% !important;
+	}
+
+@media only screen and (max-width: 1000px) {
+	.widget .content {
+		padding: 1em; 
+	}
+}
