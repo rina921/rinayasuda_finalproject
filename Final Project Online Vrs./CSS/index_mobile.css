@@ -59,9 +59,7 @@ nav .line:first-of-type{
 	#front-page .latest-container .widget  {
 		width: 100% !important;
 	}
-	.container {
-		width: auto;
-	}
+	
 	
 	.c {
 		width: auto;
@@ -92,8 +90,19 @@ nav .line:first-of-type{
 }
 @media screen and (max-width: 600px){
 
-.instafeed {
-		margin-left: 30%;
+	#main .instafeed {
+		width: 100%;
+	}
+	.single .content .row .column {
+    padding: 0 5px;
+	}
+	.single .content .row.has-text>.inner {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 	}
 }
 
@@ -121,7 +130,13 @@ nav .line:first-of-type{
 		top: 10%;
 		bottom: 10%;
 	}
-
+	.excerpt {
+		display: none;
+	}
+	.instafeed {
+		margin: 20%;
+		width: 100%;
+	}
 }
 
 
@@ -134,5 +149,52 @@ nav .line:first-of-type{
 @media only screen and (max-width: 1000px) {
 	.widget .content {
 		padding: 1em; 
+	}
+ 	.instafeed {
+		margin: auto;
+		width: 100%;
+	}
+	.instafeed h2, p{
+		font-size: 3em;
+	}
+
+	#page img {
+		margin-left: -5%;
+	}
+
+	.container {
+		width: auto;
+	}
+	.row  {
+		width: 100%;
+	}
+
+	.inner {
+		padding: 5px;
+		font-size: 6px;
+	}
+
+	#main .content {
+		margin: auto;
+		padding: 1em 2em;
+	}
+
+	.content h2 {
+		width: auto;
+
+	}
+	.content p {
+		margin: auto;
+		line-height: 30px;
+		text-align: center;
+		width: auto;
+
+	}
+	.single .content .row>.inner {
+    margin: 0 10px;
+	}
+	
+	.single .content .text>.inner {
+    padding: 1em 2em;
 	}
 }

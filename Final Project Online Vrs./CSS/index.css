@@ -285,7 +285,7 @@ header .title {
 	top: 20%;
 	left: 21%;
 	right: 21%;
-/*	bottom: 20%;*/
+	/*bottom: 10%;*/
 	z-index: 200;
 	text-align: center;
 	justify-content: center;
@@ -380,10 +380,6 @@ hr {
 	font-size: 14px;
 }
 
-
-
-
-
 .thumb-image:hover {
   background-color: #ffffff;
   opacity: 0.6;
@@ -395,8 +391,6 @@ footer {
 	color: white ;
 	background: black ;
 	font-family: 'Merriweather', serif;
-	
-
 }
 
 
@@ -482,6 +476,15 @@ h2 {
 	align-self: center;
 	-webkit-box-flex: 1;
 	flex: 1 auto;
+}
+
+.smalls {
+	padding: 3em 4em;
+}
+
+.small {
+	padding: 2em 4em;
+	font-size: .1em;
 }
 
 /*Form section*/

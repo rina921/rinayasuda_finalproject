@@ -13,9 +13,6 @@ document.getElementsByTagName("li")[0].addEventListener("click",function(){
 // Comments FORM
 
 
-
-
-
 function addEvent(node, type, callback)
 {
   if(node.addEventListener)
