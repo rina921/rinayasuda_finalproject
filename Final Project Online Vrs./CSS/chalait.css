@@ -14,6 +14,8 @@
     visibility: hidden;
     line-height: 0;
     height: 0;
+    display: table;
+    clear: both;
 }
 
 .clear { 
@@ -69,18 +71,18 @@ div {
 
 .social {
   position: absolute;
-  top: 40%;
+  top: 12px;
   right: 1%;
   text-align: right;
-  transform: translateY(-50%);
+
 }
 
 .social .link {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 2px dashed #484848;
   background-clip: content-box;
@@ -140,13 +142,12 @@ div {
     height: 10%;
     margin-top: -20px;
     margin-bottom: 100px;
-    text-align: center;
-    z-index:300;
 
 }
 
-fieldset{
-      border: none;
+ #menu{
+    text-align: center;
+    z-index: 300;
 }
 
 ul li {
@@ -155,6 +156,9 @@ ul li {
 
 }
 
+nav li {
+    float: left;
+}
 
 
 
@@ -171,6 +175,7 @@ ul li {
     
 }
 
+
 #menu li {
     display: inline-block;
     padding-right:30px;
@@ -185,6 +190,18 @@ ul li {
 
 }
 
+
+#menu a {
+    text-decoration: none;
+    color: #484848;
+
+}
+#menu a:hover {
+    color: #989898 ;
+    background-color: transparent;
+
+}
+
 #rina .header {
     width: 350px;
     height: 350px;
@@ -193,6 +210,11 @@ ul li {
     margin-bottom: -40px;
 
 }
+
+ul #menu {
+    display: block !important;
+
+    }
 
 
 
@@ -343,13 +365,16 @@ section .second {
 
 /*Comments Form*/
 
+fieldset{
+      border: none;
+}
 
 
-@media only screen and (max-width: 1200px) {
+/*@media only screen and (max-width: 1200px) {
 .container {
     width: 90%;
 }
-}
+}*/
 
 /*NEW*/
 input[aria-invalid="true"],
@@ -429,10 +454,8 @@ form button {
     margin-left: 70%;
    
 }
-/*.com {
-    margin-right: 30%;
-}
-*/
+
+
 /*instagram slides*/
 .lightwidget-widget {
 	margin-top: 5%;

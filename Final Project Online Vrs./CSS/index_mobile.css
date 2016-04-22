@@ -92,6 +92,8 @@ nav .line:first-of-type{
 
 	#main .instafeed {
 		width: 100%;
+		font-size: 0.5em;
+
 	}
 	.single .content .row .column {
     padding: 0 5px;
@@ -174,10 +176,6 @@ nav .line:first-of-type{
 		font-size: 6px;
 	}
 
-	#main .content {
-		margin: auto;
-		padding: 1em 2em;
-	}
 
 	.content h2 {
 		width: auto;
@@ -197,4 +195,28 @@ nav .line:first-of-type{
 	.single .content .text>.inner {
     padding: 1em 2em;
 	}
+	
+	
 }
+
+@media (min-width: 1000px) {
+    .mobile-only {
+        display:none !important;
+    }
+ }
+
+
+
+@media (max-width: 1000px) {
+    .mobile-only {
+        display:block !important;
+    }
+    .display-only {
+    	display:none !important;
+    }
+
+   
+
+ }
+
+
